@@ -1,0 +1,30 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>  
+    <jsp-version>1.2</jsp-version>   
+    <uri>WEB-INF/taglibs/mycustomtags</uri>  
+    <tag>
+       <name>Loop</name>
+       <tag-class>com.customtags.tags.Loop</tag-class>
+       <body-content>false</body-content>
+       <attribute>
+           <name>max</name>
+           <required>true</required>
+       </attribute>
+       <attribute>
+           <name>min</name>
+           <required>false</required>
+       </attribute>
+       <attribute>
+           <name>msg</name>
+           <required>true</required>
+       </attribute>
+       <attribute>
+           <name>step</name>
+           <required>false</required>
+       </attribute>
+       <attribute>
+           <name>color</name>
+           <required>false</required>
+       </attribute>
+    </tag>
+</taglib>
